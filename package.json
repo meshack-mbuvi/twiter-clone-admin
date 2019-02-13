@@ -2,7 +2,6 @@
     "name": "client",
     "version": "0.1.0",
     "private": true,
-    "proxy": "http://localhost/api",
     "dependencies": {
         "@types/jest": "^23.3.10",
         "@types/node": "^10.12.18",
@@ -25,7 +24,9 @@
         "redux": "^4.0.1",
         "redux-thunk": "^2.3.0",
         "toastr": "^2.1.4",
-        "typescript": "^3.2.2"
+        "popper.js": "^1.14.6",
+        "typescript": "^3.2.2",
+        "redux-devtools-extension": "^2.13.7"
     },
     "scripts": {
         "start": "react-scripts-ts start",
